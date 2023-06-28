@@ -3,7 +3,7 @@ package org.campusmolndal;
 import java.util.Scanner;
 
 public class Main {
-    //test
+    //test j
     public static void main(String[] args) {
         DatabaseHandler databaseHandler = new DatabaseHandler();
 
