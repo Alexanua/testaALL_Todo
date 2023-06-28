@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f010726-4abc-4e98-9264-459c17b1e007" name="Changes" comment="" />
+    <list default="true" id="1f010726-4abc-4e98-9264-459c17b1e007" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToDoServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.ToDoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToDoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinCoolaCITest" />
       <extension name="coverage">
@@ -85,9 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.ToDoServiceTest (1)" />
         <item itemvalue="JUnit.ToDoServiceTest" />
       </list>
     </recent_temporary>
@@ -101,6 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687967399672</updated>
       <workItem from="1687967401182" duration="7117000" />
+      <workItem from="1687981130284" duration="1513000" />
     </task>
     <task id="LOCAL−00001" summary="update">
       <created>1687980946988</created>
@@ -108,7 +143,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1687980946988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="update">
+      <created>1687981261763</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1687981261763</updated>
+    </task>
+    <task id="LOCAL−00003" summary="update yml">
+      <created>1687981441951</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1687981441952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +175,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update yml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/campusmolndal/UserServiceTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
