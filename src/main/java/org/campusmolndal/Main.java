@@ -3,7 +3,7 @@ package org.campusmolndal;
 import java.util.Scanner;
 
 public class Main {
-    // kör Now 1
+    // kör Now 11
     public static void main(String[] args) {
         DatabaseHandler databaseHandler = new DatabaseHandler();
 

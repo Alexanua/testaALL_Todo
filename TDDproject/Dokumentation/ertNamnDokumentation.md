@@ -1,6 +1,6 @@
 ## Project Report: Todo App
 
-# Your Name
+# My Name
 - Alexander Sharif
 
 # Project Description
@@ -82,3 +82,4 @@ The project uses the following dependencies (included via Maven):
 - org.testng:testng:7.8.0
 - org.webjars:jquery:3.6.1
 - org.xerial:sqlite-jdbc:3.42.0.0
+
