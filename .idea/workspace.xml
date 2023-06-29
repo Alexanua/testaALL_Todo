@@ -61,7 +61,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ToDoServiceTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Main" />
       <module name="JinTDD" />
@@ -138,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ToDoServiceTest (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.ToDoServiceTest.testCreateToDoItem" />
         <item itemvalue="JUnit.ToDoServiceTest" />
@@ -156,7 +156,7 @@
       <updated>1687967399672</updated>
       <workItem from="1687967401182" duration="7117000" />
       <workItem from="1687981130284" duration="2867000" />
-      <workItem from="1687985062073" duration="9879000" />
+      <workItem from="1687985062073" duration="11611000" />
     </task>
     <task id="LOCAL−00001" summary="update">
       <created>1687980946988</created>
@@ -212,7 +212,31 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1688061029375</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Updete">
+      <created>1688061237769</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1688061237769</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Updete">
+      <created>1688061417816</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1688061417816</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Updete 22">
+      <created>1688061653779</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1688061653779</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Updete 23">
+      <created>1688062938521</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1688062938521</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +260,9 @@
     <MESSAGE value="update menu" />
     <MESSAGE value="update databasehandler" />
     <MESSAGE value="update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1" />
+    <MESSAGE value="Updete" />
+    <MESSAGE value="Updete 22" />
+    <MESSAGE value="Updete 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updete 23" />
   </component>
 </project>

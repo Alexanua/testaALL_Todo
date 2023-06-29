@@ -15,6 +15,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 class ToDoServiceTest {
+    //
 
     private ToDoService toDoService;
     private DatabaseHandler databaseHandler;
