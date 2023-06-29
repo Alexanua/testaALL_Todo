@@ -156,7 +156,7 @@
       <updated>1687967399672</updated>
       <workItem from="1687967401182" duration="7117000" />
       <workItem from="1687981130284" duration="2867000" />
-      <workItem from="1687985062073" duration="3066000" />
+      <workItem from="1687985062073" duration="4268000" />
     </task>
     <task id="LOCAL−00001" summary="update">
       <created>1687980946988</created>
@@ -182,7 +182,25 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1687983523211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="update databasehandler">
+      <created>1688028242957</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1688028242957</updated>
+    </task>
+    <task id="LOCAL−00006" summary="update 1">
+      <created>1688028397273</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1688028397273</updated>
+    </task>
+    <task id="LOCAL−00007" summary="update 1">
+      <created>1688028529348</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1688028529348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,17 +222,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update yml" />
     <MESSAGE value="update menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="update menu" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/campusmolndal/UserServiceTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="update databasehandler" />
+    <MESSAGE value="update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1" />
   </component>
 </project>

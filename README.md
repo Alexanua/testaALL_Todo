@@ -1,136 +1,105 @@
-# Project name
-Todo APP
-Description
-This project is a Todo app designed to help users write and organize their tasks. The app allows users to create, update, and delete tasks, mark tasks as completed, and categorize tasks into different .
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+# Project Name
+## Todo App
 
-What was your motivation?
-The motivation behind this project was to enhance my skills in developing applications using Java and working with databases. I wanted to create a practical application that would help users stay organized and manage their tasks effectively. Additionally,
-I wanted to gain experience in writing unit tests and using mockito to simulate interactions with a database.
-What problem does it solve?
-This Todo app aims to solve the problem of task management and organization. Many people struggle to keep track of their tasks and often forget important deadlines or fail to prioritize their work effectively. By providing a simple and intuitive interface for creating and managing tasks, this app helps users stay organized, improve productivity, and ensure that important tasks are not overlooked.
-What did you learn?
-During the development of this project, I learned several valuable lessons. Firstly, I gained experience in working with the SQLite database and learned how to perform basic database operations such as inserting, updating, and retrieving data. I also learned how to write unit tests using JUnit and Mockito to ensure the correctness of my code and simulate interactions with the database. Additionally, I enhanced my understanding of software design principles and best practices, such as separating concerns and maintaining code modularity.
-Project Status
- Fully functioning TODO application that can handle TODOs from the command line.
+## Description
+The Todo App is a task management application designed to help users write, organize, and track their tasks. With this app, users can create, update, and delete tasks, mark tasks as completed, and categorize tasks into different categories.
 
- Fully functioning tests for the application.
+## Motivation
+The motivation behind this project was to enhance skills in Java development and working with databases. The project aimed to create a practical application that assists users in staying organized and effectively managing their tasks. Additionally, the project aimed to gain experience in writing unit tests and using Mockito to simulate interactions with a database.
 
- Fully functioning mocking of dependencies in the tests.
+## Problem Solved
+The Todo App aims to solve the problem of task management and organization. Many individuals struggle to keep track of their tasks, often forgetting important deadlines or failing to prioritize their work effectively. By providing a simple and intuitive interface for creating and managing tasks, this app helps users stay organized, improve productivity, and ensure that important tasks are not overlooked.
 
- Fully functioning tests through CI on Github.
+## Key Learnings
+During the development of this project, several valuable learnings were gained:
+- Working with the SQLite database and performing basic database operations such as inserting, updating, and retrieving data.
+- Writing unit tests using JUnit and Mockito to ensure code correctness and simulate interactions with the database.
+- Understanding software design principles and best practices, such as separating concerns and maintaining code modularity.
 
- Todo exists in a database, SQLite.
+## Project Status
+- [x] Fully functioning TODO application that can handle TODOs from the command line.
+- [x] Comprehensive tests for the application.
+- [x] Successful mocking of dependencies in the tests.
+- [x] Continuous Integration (CI) tests through Github Actions.
+- [x] Implementation of a database using SQLite.
+- [x] Utilization of JUnit 5, Mockito, and JSON in Java.
+- [x] Building the project using Maven.
+- [x] Integration of Github Actions for testing the project.
 
- I use JUnit5, Mockito, and JSON In Java.
+Please note that during the implementation of Continuous Integration (CI) tests through Github Actions, there were challenges encountered. However, with diligent troubleshooting and support, the project's CI tests were successfully set up and running.
 
- I use Maven to build the project.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
- Use Github Actions to test the project.
+## Installation
+To install and run the project locally, follow these steps:
 
-Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
+- Clone the repository to your local machine:
+- git clone https://github.com/Alexanua/testaALL_Todo.git
 
-Installation
-Usage
-Credits
-License
-Installation
-To install and run the project locally, please follow the steps below:
-Clone the repository to your local machine using the following command:
+- Navigate to the project directory:
+- cd project (Mac)
+- Install the required dependencies using Maven:
+- mvn install
+- Configure any necessary environment variables as specified in the project documentation.
+- Start the project locally:
+## mvn exec:java
 
-bash Copy code git clone https://github.com/Alexanua/project.git Navigate to the project directory:
+Note: Make sure you have the Java Development Kit (JDK) installed on your machine.
 
-bash Copy code cd project Install the required dependencies using your preferred package manager:
+The Todo app should now be running locally. Ensure that you have the necessary prerequisites installed and configured correctly before proceeding with the installation steps. Refer to the project documentation for detailed instructions and any additional setup requirements specific to your environment.
 
-Copy code mvn install Configure any necessary environment variables. Refer to the project documentation for details on the required environment variables and how to set them.
+## Usage
+Once the Todo app is up and running, you can use it to manage your tasks effectively. Follow these instructions to get started:
 
-Start the project locally:
+1. Register a user by selecting "Register User" from the menu and providing the required information.
 
-bash Copy code mvn exec:java Note: Make sure you have Java Development Kit (JDK) installed on your machine.
+2. Use the "Todo List" option in the menu to access the Todo Menu.
 
-The Todo app should now be running locally.
+3. In the Todo Menu, you can perform the following actions:
+- Add a new item: Enter the details of the task, such as ID, text, completion status, assigned user ID, and category.
+- Mark an item as done: Enter the ID of the item you want to mark as done.
+- Delete an item: Enter the ID of the item you want to delete.
 
-Please make sure you have the necessary prerequisites installed and configured correctly before proceeding with the installation steps. Refer to the project's documentation for detailed instructions and any additional setup requirements specific to your environment.
+4. Use the "Exit" option in the main menu to exit the application.
 
-Usage
-Once the Todo app is up and running, you can use it to manage your tasks effectively. Here are some instructions for usage:
-
-Create a new task by clicking on the "Add Task" button.
-
-Enter the task details such as title, description, due date, and category.
-
-Click on the "Save" button to add the task to your list.
-
-View your tasks on the main page. You can see the task title, category, due date, and completion status.
-
-Update a task by clicking on the task and modifying the details.
-
-Mark a task as completed by checking the checkbox next to the task.
-
-Delete a task by clicking on the "Delete" button.
-
-Use the category filter to view tasks based on specific categories.
-
-Stay organized and manage your tasks efficiently using the Todo app.
-
-Credits
+## Credits
 This project wouldn't have been possible without the contributions of the following team members:
-
-Marcus Alexander
+- Marcus
+- Alexander
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-junit jupiter 5
-License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to MIT License.
+## License
+The project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-Maven: ch.qos.logback:logback-classic:1.4.8
+## Dependencies
+The project uses the following dependencies (included via Maven):
+- ch.qos.logback:logback-classic:1.4.8
+- ch.qos.logback:logback-core:1.4.8
+- com.beust:jcommander:1.82
+- junit:junit:4.12
+- net.bytebuddy:byte-buddy-agent:1.14.4
+- net.bytebuddy:byte-buddy:1.14.4
+- org.apiguardian:apiguardian-api:1.1.2
+- org.hamcrest:hamcrest-core:1.3
+- org.json:json:20230227
+- org.junit.jupiter:junit-jupiter-api:5.9.3
+- org.junit.jupiter:junit-jupiter-engine:5.9.3
+- org.junit.platform:junit-platform-commons:1.9.3
+- org.junit.platform:junit-platform-engine:1.9.3
+- org.mockito:mockito-core:5.3.1
+- org.mongodb:bson-record-codec:4.9.1
+- org.mongodb:bson:4.9.1
+- org.mongodb:mongodb-driver-core:4.9.1
+- org.mongodb:mongodb-driver-sync:4.9.1
+- org.objenesis:objenesis:3.3
+- org.opentest4j:opentest4j:1.2.0
+- org.slf4j:slf4j-api:2.0.7
+- org.testng:testng:7.8.0
+- org.webjars:jquery:3.6.1
+- org.xerial:sqlite-jdbc:3.42.0.0
 
-Maven: ch.qos.logback:logback-core:1.4.8
-
-Maven: com.beust:jcommander:1.82
-
-Maven: junit:junit:4.12
-
-Maven: net.bytebuddy:byte-buddy-agent:1.14.4
-
-Maven: net.bytebuddy:byte-buddy:1.14.4
-
-Maven: org.apiguardian:apiguardian-api:1.1.2
-
-Maven: org.hamcrest:hamcrest-core:1.3
-
-Maven: org.json:json:20230227
-
-Maven: org.junit.jupiter:junit-jupiter-api:5.9.3
-
-Maven: org.junit.jupiter:junit-jupiter-engine:5.9.3
-
-Maven: org.junit.platform:junit-platform-commons:1.9.3
-
-Maven: org.junit.platform:junit-platform-engine:1.9.3
-
-Maven: org.mockito:mockito-core:5.3.1
-
-Maven: org.mongodb:bson-record-codec:4.9.1
-
-Maven: org.mongodb:bson:4.9.1
-
-Maven: org.mongodb:mongodb-driver-core:4.9.1
-
-Maven: org.mongodb:mongodb-driver-sync:4.9.1
-
-Maven: org.objenesis:objenesis:3.3
-
-Maven: org.opentest4j:opentest4j:1.2.0
-
-Maven: org.slf4j:slf4j-api:2.0.7
-
-Maven: org.testng:testng:7.8.0
-
-Maven: org.webjars:jquery:3.6.1
-
-Maven: org.xerial:sqlite-jdbc:3.42.0.0
-
-Please refer to the documentation of these libraries for more information on their usage and licensing terms.
