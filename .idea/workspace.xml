@@ -22,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2RqAmu9q1zJIWFGMu73VFUlmxhc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +61,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campusmolndal.Main" />
       <module name="JinTDD" />
@@ -102,6 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToDoServiceTest.testCreateToDoItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JinTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusmolndal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campusmolndal" />
+      <option name="MAIN_CLASS_NAME" value="org.campusmolndal.ToDoServiceTest" />
+      <option name="METHOD_NAME" value="testCreateToDoItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JinTDD" />
       <extension name="coverage">
@@ -119,9 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.ToDoServiceTest (1)" />
+        <item itemvalue="JUnit.ToDoServiceTest.testCreateToDoItem" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ToDoServiceTest" />
       </list>
     </recent_temporary>
@@ -135,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1687967399672</updated>
       <workItem from="1687967401182" duration="7117000" />
-      <workItem from="1687981130284" duration="1513000" />
+      <workItem from="1687981130284" duration="2867000" />
+      <workItem from="1687985062073" duration="3066000" />
     </task>
     <task id="LOCAL−00001" summary="update">
       <created>1687980946988</created>
@@ -155,7 +176,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1687981441952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="update menu">
+      <created>1687983523211</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1687983523211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +203,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="update yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update yml" />
+    <MESSAGE value="update menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

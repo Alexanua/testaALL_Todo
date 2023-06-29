@@ -10,6 +10,7 @@ import java.time.LocalDate;
 public class UserService {
     private DatabaseHandler databaseHandler;
 
+
     public UserService(DatabaseHandler databaseHandler) {
         this.databaseHandler = databaseHandler;
     }

@@ -12,23 +12,6 @@ public class ToDoService {
         this.databaseHandler = databaseHandler;
     }
 
-    public void createToDoItemTable() {
-        String sql = "CREATE TABLE IF NOT EXISTS ToDoItem (" +
-                "id INTEGER PRIMARY KEY," +
-                "text TEXT," +
-                "done BOOLEAN," +
-                "assignedTo INTEGER," +
-                "category TEXT" +
-                ")";
-
-        try (Connection connection = databaseHandler.connect()) {
-            PreparedStatement pstmt = connection.prepareStatement(sql);
-            pstmt.executeUpdate();
-        } catch (SQLException e) {
-            System.out.println("Error creating ToDoItem table: " + e.getMessage());
-        }
-    }
-
     public void createToDoItem(int id, String text, boolean done, int assignedUserId, String category) {
         String sql = "INSERT INTO ToDoItem(id, text, done, assignedUserId, category) VALUES(?, ?, ?, ?, ?)";
 
