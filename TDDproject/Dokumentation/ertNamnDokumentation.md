@@ -1,6 +1,6 @@
 ## Project Report: Todo App
 
-# My Name
+## My Name
 - Alexander Sharif
 
 # Project Description
