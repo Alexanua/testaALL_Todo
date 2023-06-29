@@ -3,6 +3,7 @@ package org.campusmolndal;
 import java.util.Scanner;
 
 public class Main {
+    // kör
     public static void main(String[] args) {
         DatabaseHandler databaseHandler = new DatabaseHandler();
 
