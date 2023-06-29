@@ -139,8 +139,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.ToDoServiceTest (1)" />
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.ToDoServiceTest.testCreateToDoItem" />
         <item itemvalue="JUnit.ToDoServiceTest" />
       </list>
@@ -156,7 +156,7 @@
       <updated>1687967399672</updated>
       <workItem from="1687967401182" duration="7117000" />
       <workItem from="1687981130284" duration="2867000" />
-      <workItem from="1687985062073" duration="4268000" />
+      <workItem from="1687985062073" duration="9879000" />
     </task>
     <task id="LOCAL−00001" summary="update">
       <created>1687980946988</created>
@@ -200,7 +200,19 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1688028529348</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="update 1">
+      <created>1688048292202</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1688048292203</updated>
+    </task>
+    <task id="LOCAL−00009" summary="update 1">
+      <created>1688061029375</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1688061029375</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
