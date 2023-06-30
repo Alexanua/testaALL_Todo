@@ -5,14 +5,9 @@ import java.util.Scanner;
 public class Main {
     // kör Now 11
     public static void main(String[] args) {
-        DatabaseHandler databaseHandler = new DatabaseHandler();
 
-        UserService userService = new UserService(databaseHandler);
-        ToDoService toDoService = new ToDoService(databaseHandler);
-
-        UserMenu userMenu = new UserMenu(userService, new ToDoMenu(toDoService), new Scanner(System.in));
-
-        userMenu.start();
+        ToDoAppFacade toDoApp = new ToDoAppFacade();
+        toDoApp.start();
     }
 }
 
